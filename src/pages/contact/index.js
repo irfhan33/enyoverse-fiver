@@ -59,6 +59,30 @@ const Contact = () => {
           </div>
         </form>
       </div>
+
+      <div className="disclaimer">
+        <p>Direct contact :</p>
+
+        <p>
+          General enquiries <br />
+          contact@enyoverse.space
+        </p>
+
+        <p>
+          Investment <br />
+          investors@enyoverse.space
+        </p>
+
+        <p>
+          Marketing partnerships <br />
+          marketing@enyoverse.space
+        </p>
+
+        <p>
+          News & media <br /> press@enyoverse.space
+        </p>
+        <p className="copyright">All rights reserved @ Enyoverse gaming 2022</p>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,40 @@
+{
+  "files": {
+    "static/js/0.a57e7f2c.chunk.js": "/static/js/0.a57e7f2c.chunk.js",
+    "static/js/0.a57e7f2c.chunk.js.map": "/static/js/0.a57e7f2c.chunk.js.map",
+    "main.css": "/static/css/main.117a1a90.chunk.css",
+    "main.js": "/static/js/main.dd18d80a.chunk.js",
+    "main.js.map": "/static/js/main.dd18d80a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e8c41d8f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e8c41d8f.js.map",
+    "walletconnect/web3-provider.js": "/static/js/walletconnect/web3-provider.e0d66422.chunk.js",
+    "walletconnect/web3-provider.js.map": "/static/js/walletconnect/web3-provider.e0d66422.chunk.js.map",
+    "web3-main.js": "/static/js/web3-main.66519374.chunk.js",
+    "web3-main.js.map": "/static/js/web3-main.66519374.chunk.js.map",
+    "static/js/5.cbd7a519.chunk.js": "/static/js/5.cbd7a519.chunk.js",
+    "static/js/5.cbd7a519.chunk.js.map": "/static/js/5.cbd7a519.chunk.js.map",
+    "static/js/6.7da9870a.chunk.js": "/static/js/6.7da9870a.chunk.js",
+    "static/js/6.7da9870a.chunk.js.map": "/static/js/6.7da9870a.chunk.js.map",
+    "static/js/7.89af2e29.chunk.js": "/static/js/7.89af2e29.chunk.js",
+    "static/js/7.89af2e29.chunk.js.map": "/static/js/7.89af2e29.chunk.js.map",
+    "static/js/8.883dabd0.chunk.js": "/static/js/8.883dabd0.chunk.js",
+    "static/js/8.883dabd0.chunk.js.map": "/static/js/8.883dabd0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.117a1a90.chunk.css.map": "/static/css/main.117a1a90.chunk.css.map",
+    "static/js/0.a57e7f2c.chunk.js.LICENSE.txt": "/static/js/0.a57e7f2c.chunk.js.LICENSE.txt",
+    "static/js/5.cbd7a519.chunk.js.LICENSE.txt": "/static/js/5.cbd7a519.chunk.js.LICENSE.txt",
+    "static/js/7.89af2e29.chunk.js.LICENSE.txt": "/static/js/7.89af2e29.chunk.js.LICENSE.txt",
+    "static/media/crptoradar.c483ba60.png": "/static/media/crptoradar.c483ba60.png",
+    "static/media/crptototem.7a58a9d3.png": "/static/media/crptototem.7a58a9d3.png",
+    "static/media/icolisting.2f99e96f.png": "/static/media/icolisting.2f99e96f.png",
+    "static/media/metamask-icon.c901ad35.svg": "/static/media/metamask-icon.c901ad35.svg",
+    "static/media/premuimcrypto.f773d96c.png": "/static/media/premuimcrypto.f773d96c.png",
+    "static/media/wallet-connect.a4166a89.svg": "/static/media/wallet-connect.a4166a89.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8c41d8f.js",
+    "static/js/7.89af2e29.chunk.js",
+    "static/css/main.117a1a90.chunk.css",
+    "static/js/main.dd18d80a.chunk.js"
+  ]
+}

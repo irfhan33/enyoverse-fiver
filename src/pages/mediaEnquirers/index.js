@@ -11,7 +11,7 @@ const MediaEnquirers = () => {
     <div className="container">
       <div className="media-enquirers-container">
         <div className="media-enquirers-header">
-          <h3 className="media-enquirers-title">Media Enquirers</h3>
+          <h3 className="media-enquirers-title">Media Enquiries</h3>
           <p className="media-enquirers-description">
             All columns are mandatory
           </p>
