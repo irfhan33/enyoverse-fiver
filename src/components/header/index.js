@@ -13,8 +13,8 @@ const Routes = [
     url: "/whitepaper",
   },
   {
-    name: "Media Enquirers",
-    url: "/media-enquirers",
+    name: "Media Enquiries",
+    url: "/media-enquiries",
   },
   {
     name: "Become a Partner",

@@ -51,9 +51,30 @@ const Home = () => {
           </div>
           <HeroCard />
           <div className="social-stack">
-            <SocialIcon icon={<TwitterIcon />} name="Follow on Twitter" />
-            <SocialIcon icon={<TelegramIcon />} name="Telegram Channel" />
-            <SocialIcon icon={<TelegramIcon />} name="Telegram Chat" />
+            <a
+              href="https://twitter.com/enyoverse?t=nRWFc9cMsJB--XebUSR0_g&s=09"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="links"
+            >
+              <SocialIcon icon={<TwitterIcon />} name="Follow on Twitter" />
+            </a>
+            <a
+              href="https://t.me/EnyoverseTG"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="links"
+            >
+              <SocialIcon icon={<TelegramIcon />} name="Telegram Channel" />
+            </a>
+            <a
+              href="https://t.me/CyberEnyoverseGaming"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="links"
+            >
+              <SocialIcon icon={<TelegramIcon />} name="Telegram Chat" />
+            </a>
           </div>
         </div>
 
@@ -148,7 +169,7 @@ const Home = () => {
         <div className="tokenomics-container">
           <div className="tokenomics-stats">
             <div className="tokenomics-item">
-              <h5 className="tokenomics-subtitle">Total supply 400 million</h5>
+              <h5 className="tokenomics-subtitle">Total supply 240 million</h5>
               <div>Team 10%</div>
               <div>Advisors / Legal / marketing 10%</div>
               <div>Community 60% (Pre ICO + ICO + Pancakeswap)</div>
@@ -372,6 +393,26 @@ const Home = () => {
               solve the issues mutually.
             </p>
 
+            <p>Direct contact :</p>
+
+            <p>
+              General enquiries <br />
+              contact@enyoverse.space
+            </p>
+
+            <p>
+              Investment <br />
+              investors@enyoverse.space
+            </p>
+
+            <p>
+              Marketing partnerships <br />
+              marketing@enyoverse.space
+            </p>
+
+            <p>
+              News & media <br /> press@enyoverse.space
+            </p>
             <p className="copyright">
               All rights reserved @ Enyoverse gaming 2022
             </p>
