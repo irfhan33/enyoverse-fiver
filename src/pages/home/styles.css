@@ -1,0 +1,558 @@
+.gradient-title {
+  background: var(--main-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 31px;
+  margin-bottom: 4px;
+}
+
+section.hero {
+  margin-top: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.blur {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  filter: blur(75px);
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.blur.right {
+  right: -20px;
+  top: -50px;
+}
+
+.blur.left {
+  left: -60px;
+  bottom: 60px;
+}
+
+@media (max-width: 500px) {
+  .blur {
+    display: none;
+  }
+}
+
+.coin-logos .row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coin-logos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 60px;
+}
+
+.coin-logos img {
+  height: 80px;
+  object-fit: contain;
+}
+
+@media (max-width: 700px) {
+  .coin-logos img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  section.hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.hero svg {
+    width: 300px;
+  }
+
+  .hero-content {
+    max-width: none !important;
+  }
+
+  .hero-content .title {
+    font-size: 54px;
+  }
+}
+
+.background-section {
+  border: 1px solid rgba(143, 143, 143, 0.15);
+  border-left: none;
+  border-right: none;
+  background-color: var(--main-color-100);
+}
+
+.hero-content {
+  max-width: 620px;
+  width: 100%;
+}
+
+.hero-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .top-title,
+.hero .title,
+.hero .title-bottom {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero svg {
+  max-width: 440px;
+  width: 100%;
+}
+
+.hero .hero-section-illustration {
+  display: flex;
+  align-items: flex-end;
+}
+
+.illustration-tokenomic {
+  display: flex;
+  justify-content: center;
+}
+.illustration-tokenomic img {
+  max-width: 300px;
+}
+
+.hero .title {
+  font-size: 64px;
+}
+
+.hero .title-bottom {
+  font-size: 53px;
+  color: var(--main-color-90);
+  line-height: 69px;
+}
+
+.coin-section {
+  padding-top: 80px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coin-section .title-container {
+  padding-bottom: 0px;
+}
+
+.coin-section svg {
+  width: 100%;
+  max-width: 800px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-headline {
+  color: var(--main-color-90);
+  font-size: 44px;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .section-headline {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-headline {
+    font-size: 20px;
+  }
+}
+
+.section-headline.white {
+  color: white;
+}
+
+.side-section {
+  margin-bottom: 80px;
+}
+
+.side-section svg {
+  max-width: 500px;
+}
+
+.side-section .section-headline.white {
+  margin-bottom: 40px;
+}
+
+.side-section .title-container {
+  margin-bottom: 80px;
+}
+
+.side-section .side-section-footer {
+  padding: 40px 0;
+  color: var(--main-color-90);
+  padding-bottom: 0;
+}
+
+.side-section-footer .title {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.team-container {
+  width: 46%;
+  font-size: 21px;
+}
+
+.team-container.right {
+  text-align: right;
+  margin-left: auto;
+}
+
+@media (max-width: 700px) {
+  .team-container.right {
+    text-align: left;
+    margin-left: 0px;
+  }
+
+  .team-container {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .team-container .title {
+    font-size: 18px;
+  }
+
+  .side-section-footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+.roadmap-section {
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+
+.roadmap-section .roadmap-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roadmap-grid .roadmap-illustration-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.roadmap-grid .roadmap-illustration-container > svg {
+  max-height: 550px;
+  width: 100%;
+}
+.roadmap-section .background-section {
+  margin-bottom: 40px;
+}
+
+.roadmap-section .roadmap-section-description {
+  margin-left: 80px;
+}
+
+.roadmap-title {
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.roadmap-section ul {
+  color: var(--main-color-90);
+  font-size: 21px;
+}
+
+.roadmap-section ul li {
+  margin-bottom: 4px;
+  margin-left: -8px;
+}
+
+.roadmap-content div:nth-child(even) {
+  width: 50%;
+  margin-left: auto;
+}
+
+.roadmap-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media (max-width: 700px) {
+  .roadmap-grid {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 60px !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .roadmap-grid .roadmap-section-description {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .roadmap-content div:nth-child(even) {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .roadmap-section ul {
+    font-size: 16px;
+  }
+
+  .roadmap-title {
+    font-size: 22px;
+  }
+
+  .roadmap-grid .roadmap-illustration-container > svg {
+    max-width: 200px;
+  }
+}
+
+.partners-section {
+  padding: 40px 0;
+}
+
+.tokenomics-subtitle {
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.tokenomics-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+@media (max-width: 700px) {
+  .tokenomics-container {
+    flex-direction: column-reverse;
+    gap: 80px;
+    align-items: center;
+  }
+  .tokenomics-item {
+    max-width: 100% !important;
+  }
+
+  .tokenomics-stats {
+    gap: 80px !important;
+  }
+
+  .footer-stats {
+    flex-direction: column;
+    gap: 40px !important;
+  }
+
+  .footer-tokenomics .alert {
+    margin-top: 40px;
+  }
+
+  .footer-tokenomics .alert p {
+    font-size: 18px !important;
+  }
+
+  .tokenomics-chart {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tokenomics-chart svg {
+    width: 60%;
+  }
+
+  .tokenomics-stats {
+    width: 100%;
+  }
+
+  .tokenomics-subtitle {
+    font-size: 20px;
+  }
+
+  .tokenomics-item div {
+    font-size: 18px !important;
+  }
+}
+
+.tokenomics-chart svg {
+  max-width: 360px;
+  width: 100%;
+}
+
+.tokenomics-item div {
+  color: var(--main-color-90);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.tokenomics-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 390px;
+}
+
+.tokenomics-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.tokenomics-stats .footer-stats {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.footer-tokenomics .alert {
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.footer-tokenomics .alert svg {
+  width: 20px;
+  margin: 0;
+}
+
+.disclaimer {
+  background-color: #0c0f21;
+  padding: 36px 60px;
+  border-radius: 16px;
+  color: var(--main-color-90);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.disclaimer-title {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 31px;
+  font-weight: 700;
+  color: white;
+}
+
+.disclaimer .copyright {
+  margin-top: 28px;
+}
+
+.press-release-logos {
+  justify-content: space-between;
+  display: flex;
+  margin: 80px 0;
+}
+
+@media (max-width: 700px) {
+  .press-release-logos img {
+    width: 100px;
+  }
+
+  .listing-partners-logos .row img {
+    width: 80px !important;
+  }
+
+  .disclaimer {
+    padding: 24px 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .disclaimer {
+    font-size: 10px;
+  }
+}
+
+.listing-partners-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 100px 0 140px 0;
+}
+
+.listing-partners-logos .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listing-partners-logos .row img {
+  object-fit: contain;
+  width: 150px;
+}
+
+.team-section-grid {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+
+.side-section .team-section-illustration-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (max-width: 900px) {
+  .team-section-grid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .side-section svg {
+    max-width: 300px !important;
+  }
+}
+
+.team-section-grid .teams {
+  display: flex;
+  flex-direction: column;
+  font-size: 42px;
+  gap: 12px;
+  color: var(--main-color-90);
+}
+
+.team-section-grid .teams .sotiras {
+  transform: translateX(-40px);
+}
+
+.team-section-grid .teams .vs {
+  margin: auto;
+  color: white;
+}
+
+.team-section-grid .teams .machitist {
+  transform: translateX(40px);
+}
+
+.vs-container {
+  width: 120px;
+  margin: auto;
+}
+
+.social-stack {
+  margin: 32px 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

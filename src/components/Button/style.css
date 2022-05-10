@@ -1,0 +1,22 @@
+.button {
+  padding: 12px 40px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button.primary {
+  background: var(--main-gradient);
+}
+
+.button.secondary {
+  background-color: var(--main-color-70);
+}
+
+.button.outline {
+  border: 1px solid var(--main-color-90);
+  color: var(--main-color-90);
+  background-color: transparent;
+}

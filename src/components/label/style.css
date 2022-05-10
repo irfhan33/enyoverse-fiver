@@ -1,0 +1,11 @@
+label.label {
+  font-weight: 600;
+  width: 100%;
+}
+
+label.radio {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: var(--main-color-90);
+}

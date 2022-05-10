@@ -1,0 +1,43 @@
+.partner-role input {
+  display: none;
+}
+
+.partner-role {
+  background-color: #344363;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  color: var(--main-color-90);
+  cursor: pointer;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 160px;
+  gap: 12px;
+}
+
+.tabs2-role {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.partner-role svg {
+  stroke: var(--main-color-90);
+}
+
+.partner-role.active {
+  background: var(--main-gradient);
+  color: white;
+}
+
+.partner-role.active svg {
+  stroke: white;
+}
+
+.partner-role h4 {
+  font-size: 21px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
