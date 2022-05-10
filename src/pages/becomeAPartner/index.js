@@ -24,7 +24,6 @@ const BecomeAPartner = () => {
           <TabTrigger value="1">Getting Started</TabTrigger>
           <TabTrigger value="2">Personal Information</TabTrigger>
           <TabTrigger value="3">Finish</TabTrigger>
-          <TabTrigger value="7">Jancok</TabTrigger>
         </TabTriggerList>
         <TabScreen value="1">
           <div className="tabs-container">
